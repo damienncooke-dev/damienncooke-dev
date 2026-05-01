@@ -1,9 +1,9 @@
 # damiencooke-dev
 API Automation/Integration - Infrastructure as Code - Kubernetes Cluster Operations and Workload Management
 
-# Hi, I'm Damien Cooke,
+## Hi, I'm Damien Cooke,
 
-Python Automation engineer focused on automating the deployment, scaling and management of containerized applications using Kubernetes; managing infrastructure at scale (Terraform) while reducing configuration drift and human-in-the-loop errors.
+Python automation engineer focused on automating the deployment, scaling and management of containerized applications using Kubernetes; managing infrastructure at scale (Terraform) while reducing configuration drift and human-in-the-loop errors.
 
 ## What I work on
   - Python-based automation/reliability tooling
@@ -16,9 +16,9 @@ Python Automation engineer focused on automating the deployment, scaling and man
 3. <link> Kubernetes 
 
 ## Certifications
-[ ] - Terraform Adminstrator
-[ ] - CKA Certified Kubernetes Administrator
-[x] - Google IT Automation with Python
+[ ] - Terraform Adminstrator, 
+[ ] - CKA Certified Kubernetes Administrator, 
+[x] - Google IT Automation with Python 
 
 
 www.linkedin.com/in/damienncooke

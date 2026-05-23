@@ -1,5 +1,5 @@
 # damiencooke-dev
-SRE/DevOps/IE - IKubernetes Cluster Operations and Workload Management - Terraform (IaC) - IT Automation Solutions
+SRE/DevOps/IE - IKubernetes Cluster Operations and Workload Management - Terraform (IaC) Scaled Availability on Demand - Python-driven IT Automation Solutions
 
 ## Hi, I'm Damien Cooke,
 

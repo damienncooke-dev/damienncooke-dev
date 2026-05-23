@@ -1,5 +1,5 @@
 # damiencooke-dev
-API Automation/Integration - Infrastructure as Code - Kubernetes Cluster Operations and Workload Management
+SRE/DevOps/IE - IKubernetes Cluster Operations and Workload Management - Terraform (IaC) - IT Automation Solutions
 
 ## Hi, I'm Damien Cooke,
 

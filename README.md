@@ -64,7 +64,7 @@
 - Python · Bash / Shell
 - Regex · API Integration
 - File & System Automation
-- Task Scheduling
+- Task Scheduling<br>
 
 </td>
 <td valign="top" width="50%">

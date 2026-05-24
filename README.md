@@ -16,9 +16,13 @@
 
 <div align="center">
 <code>SRE · DevOps · Infrastructure Engineering</code><br>
+  
 <code>Kubernetes Cluster Operations &amp; Workload Management</code><br>
+
 <code>Terraform IaC — Scaled Availability on Demand</code><br>
+
 <code>Python-driven IT Automation Solutions</code>
+
 </div>
 
 ---
@@ -51,6 +55,7 @@
 
 ## Stack
 
+<div align="center">
 <table>
 <tr>
 <td valign="top" width="50%">
@@ -103,6 +108,7 @@
 </td>
 </tr>
 </table>
+</div>
 
 ---
 

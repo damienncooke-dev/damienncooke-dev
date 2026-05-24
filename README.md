@@ -65,7 +65,7 @@
 - Regex · API Integration
 - File & System Automation
 - Task Scheduling
-- <br>
+  <br>
 
 </td>
 <td valign="top" width="50%">

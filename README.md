@@ -12,7 +12,7 @@
 
 </div>
 
-
+<div align="center">
 ---
 > `SRE · DevOps · Infrastructure Engineering`
 > 
@@ -23,6 +23,7 @@
 > `Python-driven IT Automation Solutions`
 > 
 ---
+</div>
 
 <div align="center">
 

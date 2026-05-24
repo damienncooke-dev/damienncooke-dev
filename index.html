@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Damien Cooke — Senior Infrastructure Engineer. SRE, DevOps, Kubernetes, Terraform, Python Automation. 26 years in production.">
+  <title>Damien Cooke — Infrastructure Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #0d1117;
+      --bg-raised: #161b22;
+      --border:    #21262d;
+      --gold:      #b8860b;
+      --gold-dim:  rgba(184,134,11,0.2);
+      --text-hi:   #e6d5a8;
+      --text-mid:  #8b949e;
+      --text-lo:   #6e7681;
+      --text-dim:  #3d4450;
+      --green:     #3fb950;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text-mid);
+      font-family: 'DM Mono', monospace;
+      font-weight: 300;
+      line-height: 1.7;
+      min-height: 100vh;
+      padding: 3rem 1.5rem;
+    }
+
+    .page {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    /* ── Rules ── */
+    .rule {
+      border: none;
+      border-top: 0.5px solid rgba(184,134,11,0.25);
+      margin: 2.5rem 0;
+    }
+
+    /* ── Header ── */
+    .header { margin-bottom: 2.5rem; }
+
+    .eyebrow {
+      font-size: 10px;
+      letter-spacing: 0.28em;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 0.6rem;
+    }
+
+    .headline {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(36px, 6vw, 52px);
+      font-weight: 300;
+      color: var(--text-hi);
+      line-height: 1.1;
+      letter-spacing: 0.02em;
+    }
+
+    .title-block {
+      margin-top: 1.5rem;
+      border-left: 2px solid var(--gold);
+      padding-left: 1.25rem;
+    }
+
+    .title-line {
+      font-size: 11px;
+      letter-spacing: 0.14em;
+      color: var(--text-mid);
+      line-height: 2.1;
+    }
+
+    .title-line strong {
+      color: var(--text-hi);
+      font-weight: 400;
+    }
+
+    /* ── Stats ── */
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--border);
+      border-radius: 4px;
+      overflow: hidden;
+      margin-bottom: 2.5rem;
+    }
+
+    .stat {
+      background: var(--bg);
+      padding: 1.5rem 1rem;
+      text-align: center;
+    }
+
+    .stat-num {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 40px;
+      font-weight: 300;
+      color: var(--text-hi);
+      line-height: 1;
+      display: block;
+    }
+
+    .stat-label {
+      font-size: 9px;
+      letter-spacing: 0.22em;
+      color: var(--text-lo);
+      text-transform: uppercase;
+      margin-top: 0.5rem;
+      display: block;
+    }
+
+    /* ── Section label ── */
+    .section-label {
+      font-size: 10px;
+      letter-spacing: 0.28em;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 1.25rem;
+    }
+
+    /* ── Pillars ── */
+    .pillars {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1px;
+      background: var(--border);
+      border-radius: 4px;
+      overflow: hidden;
+      margin-bottom: 2.5rem;
+    }
+
+    .pillar {
+      background: var(--bg);
+      padding: 1.5rem;
+      transition: background 0.2s;
+    }
+
+    .pillar:hover { background: var(--bg-raised); }
+
+    .pillar-icon {
+      font-size: 20px;
+      color: var(--gold);
+      margin-bottom: 0.6rem;
+      display: block;
+    }
+
+    .pillar-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 18px;
+      font-weight: 500;
+      color: var(--text-hi);
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.02em;
+    }
+
+    .pillar-desc {
+      font-size: 10.5px;
+      color: var(--text-lo);
+      line-height: 1.8;
+      letter-spacing: 0.04em;
+    }
+
+    /* ── Stack ── */
+    .stack-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem 3rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .stack-group-label {
+      font-size: 9px;
+      letter-spacing: 0.24em;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 0.5px solid rgba(184,134,11,0.2);
+    }
+
+    .stack-items { display: flex; flex-direction: column; gap: 0.55rem; }
+
+    .stack-item { display: flex; align-items: center; gap: 10px; }
+
+    .stack-dot {
+      width: 3px; height: 3px;
+      border-radius: 50%;
+      background: var(--gold);
+      flex-shrink: 0;
+    }
+
+    .stack-name {
+      font-size: 11px;
+      color: var(--text-mid);
+      letter-spacing: 0.05em;
+    }
+
+    /* ── Quote ── */
+    .quote-block {
+      padding: 0 0 0 1.25rem;
+      border-left: 0.5px solid rgba(184,134,11,0.3);
+    }
+
+    .quote {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 17px;
+      font-weight: 300;
+      font-style: italic;
+      color: var(--text-lo);
+      letter-spacing: 0.03em;
+      line-height: 1.8;
+      margin-bottom: 0.75rem;
+    }
+
+    .quote-attr {
+      font-size: 9px;
+      letter-spacing: 0.28em;
+      color: var(--gold);
+      text-transform: uppercase;
+    }
+
+    /* ── Footer ── */
+    .footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .availability {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 9px;
+      letter-spacing: 0.18em;
+      color: var(--green);
+      text-transform: uppercase;
+    }
+
+    .pulse {
+      width: 7px; height: 7px;
+      border-radius: 50%;
+      background: var(--green);
+      display: inline-block;
+      animation: pulse 2.5s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50%       { opacity: 0.4; transform: scale(0.85); }
+    }
+
+    .linkedin-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: 'DM Mono', monospace;
+      font-size: 10px;
+      font-weight: 300;
+      letter-spacing: 0.18em;
+      color: var(--gold);
+      text-decoration: none;
+      text-transform: uppercase;
+      border: 0.5px solid rgba(184,134,11,0.4);
+      padding: 8px 16px;
+      border-radius: 2px;
+      transition: background 0.2s, border-color 0.2s;
+    }
+
+    .linkedin-btn:hover {
+      background: rgba(184,134,11,0.08);
+      border-color: var(--gold);
+    }
+
+    .linkedin-icon {
+      width: 14px; height: 14px; fill: var(--gold);
+    }
+
+    .footer-mark {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 13px;
+      font-weight: 300;
+      color: var(--text-dim);
+      letter-spacing: 0.1em;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 600px) {
+      .pillars { grid-template-columns: 1fr; }
+      .stack-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+      .stats { grid-template-columns: 1fr; }
+      .footer { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+<main class="page">
+
+  <!-- Header -->
+  <header class="header">
+    <p class="eyebrow">Senior Infrastructure Engineer &nbsp;·&nbsp; 26 Years</p>
+    <h1 class="headline">Crafting systems<br>that don't fail.</h1>
+    <div class="title-block">
+      <p class="title-line"><strong>SRE · DevOps · Infrastructure Engineering</strong></p>
+      <p class="title-line">Kubernetes Cluster Operations &amp; Workload Management</p>
+      <p class="title-line">Terraform IaC — <strong>Scaled Availability on Demand</strong></p>
+      <p class="title-line">Python-driven IT Automation Solutions</p>
+    </div>
+  </header>
+
+  <hr class="rule">
+
+  <!-- Stats -->
+  <div class="stats">
+    <div class="stat">
+      <span class="stat-num">26</span>
+      <span class="stat-label">Years in Production</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">99.9</span>
+      <span class="stat-label">Uptime Standard</span>
+    </div>
+    <div class="stat">
+      <span class="stat-num">0</span>
+      <span class="stat-label">Tolerance for Drift</span>
+    </div>
+  </div>
+
+  <!-- Core Disciplines -->
+  <p class="section-label">Core Disciplines</p>
+  <div class="pillars">
+    <div class="pillar">
+      <span class="pillar-icon">⬡</span>
+      <div class="pillar-title">Kubernetes Operations</div>
+      <p class="pillar-desc">Cluster design, workload orchestration, scheduling strategy, and multi-tenant namespace governance at scale.</p>
+    </div>
+    <div class="pillar">
+      <span class="pillar-icon">⬡</span>
+      <div class="pillar-title">Infrastructure as Code</div>
+      <p class="pillar-desc">Terraform-managed environments with modular, version-controlled, reproducible provisioning across cloud providers.</p>
+    </div>
+    <div class="pillar">
+      <span class="pillar-icon">⬡</span>
+      <div class="pillar-title">Site Reliability Engineering</div>
+      <p class="pillar-desc">SLO definition, incident response frameworks, post-mortem culture, and eliminating toil through disciplined automation.</p>
+    </div>
+    <div class="pillar">
+      <span class="pillar-icon">⬡</span>
+      <div class="pillar-title">Python Automation</div>
+      <p class="pillar-desc">Purpose-built tooling and pipelines that replace manual processes with deterministic, auditable, repeatable workflows.</p>
+    </div>
+  </div>
+
+  <hr class="rule">
+
+  <!-- Stack -->
+  <p class="section-label">Stack</p>
+  <div class="stack-grid">
+
+    <div>
+      <p class="stack-group-label">Programming &amp; Automation</p>
+      <div class="stack-items">
+        <div class="stack-item"><div class="stack-dot"></div><span class="stack-name">Python · Bash / Shell</span></div>
+        <div class="stack-item"><div class="stack-dot"></div><span class="stack-name">Regex · API Integration</span></div>
+        <div class="stack-item"><div class="stack-dot"></div><span class="stack-name">File &amp; System Automation</span></div>
+        <div class="stack-item"><div class="stack-dot"></div><span class="stack-name">Task Scheduling</span></div>
+      </div>
+    </div>
+
+    <div>
+      <p class="stack-group-label">Infrastructure &amp; Config</p>
+      <div class="stack-items">
+        <div class="stack-item"><div class="stack-dot"></div><span class="stack-name">Kubernetes · Terraform · IaC</span></div>
+        <div class="stack-item"><div class="stack-dot"></div><span class="stack-name">Puppet · Git / GitHub</span></div>
+      </div>
+    </div>
+
+    <div>
+      <p class="stack-group-label">Cloud &amp; Observability</p>
+      <div class="stack-items">
+        <div class="stack-item"><div class="stack-dot"></div><span class="stack-name">Google Cloud Platform (GCP)</span></div>
+        <div class="stack-item"><div class="stack-dot"></div><span class="stack-name">Splunk · Log Analysis</span></div>
+        <div class="stack-item"><div class="stack-dot"></div><span class="stack-name">System Monitoring</span></div>
+      </div>
+    </div>
+
+    <div>
+      <p class="stack-group-label">SRE &amp; IT Operations</p>
+      <div class="stack-items">
+        <div class="stack-item"><div class="stack-dot"></div><span class="stack-name">Incident Management · RCA</span></div>
+        <div class="stack-item"><div class="stack-dot"></div><span class="stack-name">MTTR Optimization</span></div>
+        <div class="stack-item"><div class="stack-dot"></div><span class="stack-name">Network Troubleshooting</span></div>
+      </div>
+    </div>
+
+    <div>
+      <p class="stack-group-label">Data &amp; Formats</p>
+      <div class="stack-items">
+        <div class="stack-item"><div class="stack-dot"></div><span class="stack-name">SQL · JSON · YAML · XML</span></div>
+        <div class="stack-item"><div class="stack-dot"></div><span class="stack-name">CSV · HTML</span></div>
+      </div>
+    </div>
+
+    <div>
+      <p class="stack-group-label">Operating Systems</p>
+      <div class="stack-items">
+        <div class="stack-item"><div class="stack-dot"></div><span class="stack-name">Linux / Unix</span></div>
+        <div class="stack-item"><div class="stack-dot"></div><span class="stack-name">Windows · macOS</span></div>
+      </div>
+    </div>
+
+  </div>
+
+  <hr class="rule">
+
+  <!-- Quote -->
+  <div class="quote-block">
+    <p class="quote">"The mark of mature infrastructure is not how fast it scales —<br>it's that no one notices when it does."</p>
+    <span class="quote-attr">— D.C.</span>
+  </div>
+
+  <hr class="rule">
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="availability">
+      <span class="pulse"></span>
+      Open to senior &amp; principal roles
+    </div>
+    <a class="linkedin-btn" href="https://www.linkedin.com/in/damienncooke/" target="_blank" rel="noopener">
+      <svg class="linkedin-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+      </svg>
+      LinkedIn
+    </a>
+    <span class="footer-mark">precision · reliability · craft</span>
+  </footer>
+
+</main>
+</body>
+</html>

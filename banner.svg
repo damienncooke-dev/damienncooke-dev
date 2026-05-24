@@ -1,0 +1,40 @@
+<svg viewBox="0 0 860 280" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <style>
+      .mono { font-family: 'Courier New', Courier, monospace; }
+      .serif { font-family: Georgia, 'Times New Roman', serif; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="860" height="280" fill="#0d1117"/>
+
+  <!-- Gold left border accent -->
+  <rect x="40" y="40" width="2" height="200" fill="#b8860b"/>
+
+  <!-- Top eyebrow -->
+  <text x="56" y="62" class="mono" font-size="10" fill="#b8860b" letter-spacing="4">SENIOR INFRASTRUCTURE ENGINEER · 26 YEARS</text>
+
+  <!-- Main headline -->
+  <text x="56" y="108" class="serif" font-size="38" font-weight="300" fill="#e6d5a8" letter-spacing="1">Crafting systems</text>
+  <text x="56" y="150" class="serif" font-size="38" font-weight="300" fill="#e6d5a8" letter-spacing="1">that don't fail.</text>
+
+  <!-- Divider rule -->
+  <line x1="56" y1="168" x2="820" y2="168" stroke="#b8860b" stroke-width="0.5" opacity="0.35"/>
+
+  <!-- Subtitle lines -->
+  <text x="56" y="188" class="mono" font-size="10" fill="#e6d5a8" letter-spacing="2">SRE · DevOps · Infrastructure Engineering</text>
+  <text x="56" y="206" class="mono" font-size="10" fill="#8b949e" letter-spacing="1.5">Kubernetes Cluster Operations &amp; Workload Management</text>
+  <text x="56" y="222" class="mono" font-size="10" fill="#8b949e" letter-spacing="1.5">Terraform IaC — Scaled Availability on Demand</text>
+  <text x="56" y="238" class="mono" font-size="10" fill="#8b949e" letter-spacing="1.5">Python-driven IT Automation Solutions</text>
+
+  <!-- Bottom rule -->
+  <line x1="56" y1="254" x2="820" y2="254" stroke="#b8860b" stroke-width="0.5" opacity="0.35"/>
+
+  <!-- Footer tagline -->
+  <text x="56" y="270" class="mono" font-size="9" fill="#3d4450" letter-spacing="3">precision · reliability · craft</text>
+
+  <!-- DC monogram top right -->
+  <text x="800" y="72" class="serif" font-size="28" font-weight="300" fill="#b8860b" opacity="0.4" text-anchor="middle">DC</text>
+  <rect x="776" y="78" width="48" height="0.5" fill="#b8860b" opacity="0.25"/>
+</svg>

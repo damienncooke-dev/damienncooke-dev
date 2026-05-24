@@ -14,10 +14,10 @@
 
 ---
 
-> SRE · DevOps · Infrastructure Engineering
-> Kubernetes Cluster Operations & Workload Management
-> Terraform IaC — Scaled Availability on Demand
-> Python-driven IT Automation Solutions
+> 'SRE · DevOps · Infrastructure Engineering'
+> 'Kubernetes Cluster Operations & Workload Management'
+> 'Terraform IaC — Scaled Availability on Demand'
+> 'Python-driven IT Automation Solutions'
 
 ---
 

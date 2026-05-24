@@ -13,12 +13,12 @@
 </div>
 
 ---
-
+<div align="center">
 > `SRE · DevOps · Infrastructure Engineering`
 > `Kubernetes Cluster Operations & Workload Management`
 > `Terraform IaC — Scaled Availability on Demand`
 > `Python-driven IT Automation Solutions`
-
+</div>div>
 ---
 
 <div align="center">

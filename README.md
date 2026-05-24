@@ -21,9 +21,8 @@
 <br>
 > `Python-driven IT Automation Solutions`
 <br>
-</div>
 ---
-
+</div>
 
 <div align="center">
 

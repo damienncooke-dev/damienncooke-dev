@@ -55,6 +55,8 @@
 
 ## Stack
 
+<div align=center>
+  
 <table>
 <tr>
 <td valign="top" width="50%">
@@ -103,11 +105,10 @@
 
 **OPERATING SYSTEMS**
 - Linux / Unix · Windows · macOS
-
+</div>
 </td>
 </tr>
 </table>
-
 ---
 
 <div align="center">

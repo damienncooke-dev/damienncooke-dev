@@ -39,7 +39,7 @@
 
 ## Core Disciplines
 
-**`⬡` <code> Kubernetes Operations </code> **
+<code> **`⬡` Kubernetes Operations  ** </code>
 &nbsp;&nbsp;&nbsp;&nbsp;Cluster design, workload orchestration, scheduling strategy, and multi-tenant namespace governance at scale.
 
 **`⬡` Infrastructure as Code**

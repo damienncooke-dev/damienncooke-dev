@@ -12,8 +12,9 @@
 
 </div>
 
-<div align="center">
+
 ---
+<div align="center">
 > `SRE · DevOps · Infrastructure Engineering`
 > 
 > `Kubernetes Cluster Operations & Workload Management`
@@ -22,8 +23,9 @@
 > 
 > `Python-driven IT Automation Solutions`
 > 
+  </div>
 ---
-</div>
+
 
 <div align="center">
 

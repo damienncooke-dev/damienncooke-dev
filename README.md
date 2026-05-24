@@ -9,18 +9,12 @@
 **[→ View Full Profile Site](https://damienncooke-dev.github.io/damienncooke-dev)**
 
 <br></div>
-
-
 ---
 <div align="center">
-> `SRE · DevOps · Infrastructure Engineering`
-<br>
-> `Kubernetes Cluster Operations & Workload Management`
-<br>
-> `Terraform IaC — Scaled Availability on Demand`
-<br>
-> `Python-driven IT Automation Solutions`
-<br>
+<code> SRE · DevOps · Infrastructure Engineering </code><br>
+<code> Kubernetes Cluster Operations & Workload Management </code><br>
+<code> Terraform IaC — Scaled Availability on Demand </code><br>
+<code> Python-driven IT Automation Solutions </code><br>
 ---
 </div>
 

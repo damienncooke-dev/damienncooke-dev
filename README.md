@@ -105,11 +105,13 @@
 
 **OPERATING SYSTEMS**
 - Linux / Unix · Windows · macOS
-</div>
+
 </td>
 </tr>
 </table>
 ---
+</div>
+
 
 <div align="center">
 

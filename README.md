@@ -31,7 +31,7 @@
 
 <div align="center">
 
-| **26** | **99.9%** | **0** |
+| **26** | **99.999%** | **0** |
 |:---:|:---:|:---:|
 | <sub>YEARS IN PRODUCTION</sub> | <sub>UPTIME STANDARD</sub> | <sub>TOLERANCE FOR DRIFT</sub> |
 

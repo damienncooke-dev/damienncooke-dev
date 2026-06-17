@@ -121,8 +121,8 @@
 | Project | Link |
 |:---|:---:|
 | Python Automation Project | [→ Automation Portfolio](https://github.com/damienncooke-dev/Automation-Portfolio.git) |
-| Kubernetes Deployment Project | [→ View](#) |
-| Terraform (IaC) Project | [→ View](#) |
+| Kubernetes Deployment Project | [→ In-Progress](#) |
+| Terraform (IaC) Project | [→ In-Progress](#) |
 
 </div>
 

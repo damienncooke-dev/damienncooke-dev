@@ -121,7 +121,7 @@
 | Project | Link |
 |:---|:---:|
 | Python Automation Project | [→ Automation Portfolio](https://github.com/damienncooke-dev/Automation-Portfolio/tree/main/Automate-Workflow-Vendor-Site-Update) |
-| Kubernetes Deployment Project | [→ Orchestration Project](https://github.com/damienncooke-dev/Orchestration-Project.git) |
+| Kubernetes Deployment Project | [→ Orchestration Project](https://github.com/damienncooke-dev/Automation-Portfolio/tree/main/Orchestration-Project) |
 | Terraform (IaC) Project | [→ In-Progress](#) |
 
 </div>

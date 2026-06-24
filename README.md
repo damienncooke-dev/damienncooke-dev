@@ -89,7 +89,7 @@
 <td valign="top">
 
 **SRE & IT OPERATIONS**
-- Incident Management · RCA
+- Incident Management · Root-Cause-Analysis
 - MTTR Optimization
 - Network Troubleshooting
 

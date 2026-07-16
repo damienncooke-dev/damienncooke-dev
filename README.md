@@ -120,9 +120,9 @@
 
 | Project | Link |
 |:---|:---:|
-| Python Automation Project | [→ Automation Portfolio](https://github.com/damienncooke-dev/Automation-Portfolio/tree/main/Automate-Workflow-Vendor-Site-Update) |
-| Kubernetes Deployment Project | [→ Orchestration Project](https://github.com/damienncooke-dev/SRE-Projects-Portfolio/tree/main/K8s-Orchestration-GCP) |
-| Terraform (IaC) Project | [→ Terraform_AWS Automation Project](https://github.com/damienncooke-dev/SRE-Projects-Portfolio/tree/main/Terraform-AWS-Deploy-Demo) |
+| Python Automation Project | [→ Automation Portfolio in Python](https://github.com/damienncooke-dev/Automation-Portfolio/tree/main/Automate-Workflow-Vendor-Site-Update) |
+| Kubernetes Deployment Project | [→ Orchestration Project in GKE](https://github.com/damienncooke-dev/SRE-Projects-Portfolio/tree/main/K8s-Orchestration-GCP) |
+| Terraform (IaC) Project | [→ Terraform_AWS Automation Project in AWS](https://github.com/damienncooke-dev/SRE-Projects-Portfolio/tree/main/Terraform-AWS-Deploy-Demo) |
 
 </div>
 

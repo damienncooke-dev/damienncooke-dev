@@ -6,7 +6,6 @@
 
 <br>
 
-**[→ View Full Profile Site](https://damienncooke-dev.github.io/damienncooke-dev)**
 
 <br>
 

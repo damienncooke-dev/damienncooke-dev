@@ -72,7 +72,7 @@
 <td valign="top" width="50%">
 
 **INFRASTRUCTURE & CONFIG**
-- Kubernetes · Terraform · IaC
+- Kubernetes · Terraform · Docker
 - Puppet · Git / GitHub
 
 </td>
@@ -82,6 +82,7 @@
 
 **CLOUD & OBSERVABILITY**
 - Google Cloud Platform (GCP)
+- Amazon Web Services (AWS)
 - Splunk · Log Analysis
 - System Monitoring
 
@@ -92,6 +93,7 @@
 - Incident Management · Root-Cause-Analysis
 - MTTR Optimization
 - Network Troubleshooting
+- Debugging
 
 </td>
 </tr>
@@ -105,7 +107,7 @@
 <td valign="top">
 
 **OPERATING SYSTEMS**
-- Linux / Unix · Windows · macOS
+- Linux / Unix · Windows · MacOS
 
 </td>
 </tr>

@@ -146,6 +146,8 @@
 
 <br>
 
+![](https://komarev.com/ghpvc/?username=damienncooke-dev)
+
 <sub>precision · reliability · craft</sub>
 
 </div>

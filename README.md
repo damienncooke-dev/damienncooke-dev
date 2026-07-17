@@ -144,7 +144,6 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Damien_Cooke-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/damienncooke/)
 
-<br>
 
 ![](https://komarev.com/ghpvc/?username=damienncooke-dev)
 

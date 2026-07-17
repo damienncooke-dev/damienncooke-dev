@@ -151,7 +151,7 @@
 <br>
 <br>
 
-[! GitHub [profile view counter]](https://github.com/antonkomarev/github-profile-views-counter) 
+<sub>GitHub [profile view counter]](https://github.com/antonkomarev/github-profile-views-counter)</sub>
 
  
 
